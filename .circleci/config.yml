@@ -11,4 +11,4 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-          spec: cypress/integration/login.spec.js
+          spec: cypress/integration/login.feature
