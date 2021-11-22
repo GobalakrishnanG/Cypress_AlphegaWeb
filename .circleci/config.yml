@@ -11,4 +11,4 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-          recording: true
+          record: true
