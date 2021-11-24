@@ -11,7 +11,6 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-          record: true
           spec: cypress/integration/login.feature
           filters:
             branches:
