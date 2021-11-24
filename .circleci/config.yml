@@ -21,3 +21,12 @@ workflows:
                 path: cypress/report
             - store_test_results:
                 path: cypress/results
+    
+    nightly:
+    triggers:
+      - schedule:
+          cron: "0 16 * * *"
+          filters:
+            branches:
+              only:
+                - master
