@@ -9,13 +9,20 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "0 17 * * *"
+          cron: "30 17 * * *"
           filters:
             branches:
               only:
                 - master
     jobs:
-      - cypress/run
+      - cypress/run:
+          executor: with-chrome
+          browser: chrome
+          spec: cypress/integration/login.feature
+          filters:
+            branches:
+              only:
+                - master
        
   build:
     jobs:
