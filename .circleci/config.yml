@@ -23,10 +23,10 @@ workflows:
                 path: cypress/results
     
     nightly:
-    triggers:
-      - schedule:
-          cron: "0 16 * * *"
-          filters:
-            branches:
-              only:
-                - master
+      triggers:
+        - schedule:
+            cron: "0 16 * * *"
+            filters:
+              branches:
+                only:
+                  - master
