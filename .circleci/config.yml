@@ -11,4 +11,14 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
+          record: true
           spec: cypress/integration/login.feature
+          filters:
+            branches:
+              only:
+                - master
+          post-steps:
+            - store_artifacts:
+                path: cypress/report
+            - store_test_results:
+                path: cypress/results
