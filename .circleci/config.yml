@@ -15,10 +15,6 @@ workflows:
               only:
                 - master
     jobs:
-       - test
-       
-  build:
-    jobs:
       - cypress/run:
           executor: with-chrome
           browser: chrome
