@@ -6,6 +6,7 @@ executors:
     docker:
       - image: 'cypress/browsers:node14.16.0-chrome90-ff88'
 workflows:
+  # nightly run configration
   nightly:
     triggers:
       - schedule:
@@ -23,7 +24,8 @@ workflows:
             branches:
               only:
                 - master
-       
+
+  # git push run configration     
   build:
     jobs:
       - cypress/run:

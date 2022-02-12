@@ -19,6 +19,7 @@
 import './custom_Commands/commands'
 import './custom_Commands/api'
 import 'cypress-wait-until'
+import '@shelex/cypress-allure-plugin'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     // returning false here prevents Cypress from

@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec \"cypress/integration/login.spec.js\""
+    "test": "npx cypress run --spec 'cypress/integration/login.feature'",
+    "test:all": "npx cypress run --spec '**/*.features'",
+    "report": "allure generate allure-results --clean && allure open allure-report"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^7.7.0",
+    "cypress": "^9.4.1",
     "cypress-cucumber-preprocessor": "^4.2.0",
     "cypress-wait-until": "^1.7.1"
   },
   "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.26.3",
     "npx": "^10.2.2",
     "popper.js": "^1.14.3"
   },
