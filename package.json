@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --spec 'cypress/integration/login.feature'",
+    "test": "npx cypress run --spec 'cypress/integration/login.feature' --env allure=true",
     "test:all": "npx cypress run --spec '**/*.features'",
-    "report": "allure generate allure-results --clean && allure open allure-report"
+    "report:allure": "allure generate allure-results --clean && allure open allure-report"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@shelex/cypress-allure-plugin": "^2.26.3",
+    "allure-commandline": "^2.17.2",
     "npx": "^10.2.2",
     "popper.js": "^1.14.3"
   },

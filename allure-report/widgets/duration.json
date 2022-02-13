@@ -1,0 +1,11 @@
+[ {
+  "uid" : "22b09cd3adcf17d0",
+  "name" : "Opening a Connect Portal",
+  "time" : {
+    "start" : 1644768933726,
+    "stop" : 1644768942080,
+    "duration" : 8354
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login 'Connect' portal",
+    "children" : [ {
+      "name" : "Opening a Connect Portal",
+      "uid" : "22b09cd3adcf17d0",
+      "parentUid" : "721c696567b42903f65fe593b200449c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1644768933726,
+        "stop" : 1644768942080,
+        "duration" : 8354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "721c696567b42903f65fe593b200449c"
+  } ]
+}
