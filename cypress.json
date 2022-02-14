@@ -2,7 +2,7 @@
   "baseUrl": "https://connect.uat-healthera.co.uk/",
   "testFiles": "**/*.{feature,features}",
   "defaultCommandTimeout": 30000,
-  "pageLoadTimeout": 60000,
+  "pageLoadTimeout": 150000,
   "requestTimeout": 60000,
   "chromeWebSecurity": false,
   "viewportHeight": 1080,
