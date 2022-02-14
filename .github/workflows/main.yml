@@ -1,21 +1,21 @@
-name: Cypress tests
-on: [push]
-jobs:
-  cypress-run:
-    name: Cypress run
-    runs-on: ubuntu-20.04
-    container: cypress/browsers:node12.13.0-chrome78-ff70
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+# name: Cypress tests
+# on: [push]
+# jobs:
+#   cypress-run:
+#     name: Cypress run
+#     runs-on: ubuntu-20.04
+#     container: cypress/browsers:node12.13.0-chrome78-ff70
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v2
 
-      - name: Cypress run
-        uses: cypress-io/github-action@v2
-        with:
-          browser: chrome
-          headless: true
-          spec: cypress/integration/login.feature
-          record: true
-        env: 
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#       - name: Cypress run
+#         uses: cypress-io/github-action@v2
+#         with:
+#           browser: chrome
+#           headless: true
+#           spec: cypress/integration/login.feature
+#           record: true
+#         env: 
+#           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
