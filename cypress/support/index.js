@@ -21,11 +21,11 @@ import './custom_Commands/api'
 import 'cypress-wait-until'
 import '@shelex/cypress-allure-plugin'
 
-// Cypress.on('uncaught:exception', (err, runnable) => {
-//     // returning false here prevents Cypress from
-//     // failing the test
-//     return false
-//   })
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  })
 
   // Cypress.on('window:before:load', function (win) {
   //   const original = win.EventTarget.prototype.addEventListener
