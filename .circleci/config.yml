@@ -1,10 +1,10 @@
 version: 2.1
 orbs:
   cypress: cypress-io/cypress@1
-executors:
-  with-chrome:
-    docker:
-      - image: 'cypress/base:14.16.0'
+# executors:
+#   with-chrome:
+#     docker:
+#       - image: 'cypress/base:14.16.0'
 workflows:
   # nightly run configration
   nightly:
@@ -30,7 +30,8 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          executor: with-chrome
+          docker:
+            - image: cypress/base:14.16.0
           browser: chrome
           spec: cypress/integration/login.feature
           filters:
