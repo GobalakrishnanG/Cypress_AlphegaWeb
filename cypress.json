@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://connect.uat-healthera.co.uk/",
+  "baseUrl": "https://connect.dev-healthera.co.uk/",
   "testFiles": "**/*.{feature,features}",
   "defaultCommandTimeout": 30000,
   "pageLoadTimeout": 150000,
