@@ -4,7 +4,7 @@ orbs:
 executors:
   with-chrome:
     docker:
-      - image: 'cypress/browsers:node14.16.0-chrome90-ff88'
+      - image: "cypress/browsers:node14.16.0-chrome90-ff88"
 workflows:
   # nightly run configration
   nightly:
@@ -19,19 +19,19 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-          spec: cypress/integration/login.feature
+          spec: cypress/integration/testing.feature
           filters:
             branches:
               only:
                 - master
 
-  # git push run configration     
+  # git push run configration
   build:
     jobs:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-          spec: cypress/integration/login.feature
+          spec: cypress/integration/testing.feature
           filters:
             branches:
               only:
@@ -41,4 +41,3 @@ workflows:
                 path: cypress/report
             - store_test_results:
                 path: cypress/results
-    
