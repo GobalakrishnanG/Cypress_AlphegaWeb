@@ -1,7 +1,7 @@
-Feature: Login 'Connect' portal 
+Feature: Login 'Alphega Web' portal
 
-    I want to open a Connect portal
+    I want to open a Alphega portal & create a new user
 
-    Scenario: Opening a Connect Portal
-        Given Login connect with valid credentials
-        Then logo text should have 'Healthera Connect'
+    Scenario: Open the Alphega site and sign up with valid credentials
+        Given Open the Alphega site and sign up with valid credentials
+        Then Text should have 'NHS Repeat Prescriptions'

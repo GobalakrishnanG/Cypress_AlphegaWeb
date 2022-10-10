@@ -1,0 +1,645 @@
+{
+  "uid" : "1db6fb560ff4eb34",
+  "name" : "Opening a Connect Portal",
+  "fullName" : "Opening a Connect Portal",
+  "historyId" : "a966bf2709421c151bd973861302c5c7",
+  "time" : {
+    "start" : 1644838704490,
+    "stop" : 1644838709770,
+    "duration" : 5280
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1644838704501,
+        "stop" : 1644838704503,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given Login connect with valid credentials",
+      "time" : {
+        "start" : 1644838704544,
+        "stop" : 1644838709743,
+        "duration" : 5199
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "launch_connect_portal",
+        "time" : {
+          "start" : 1644838704548,
+          "stop" : 1644838706393,
+          "duration" : 1845
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "visit /",
+          "time" : {
+            "start" : 1644838704549,
+            "stop" : 1644838706393,
+            "duration" : 1844
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "GET https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+          "time" : {
+            "start" : 1644838706393,
+            "stop" : 1644838706393,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "get #email",
+        "time" : {
+          "start" : 1644838706393,
+          "stop" : 1644838706412,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type pharmacy.user@healthera.co.uk",
+        "time" : {
+          "start" : 1644838706412,
+          "stop" : 1644838706974,
+          "duration" : 562
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get #password",
+        "time" : {
+          "start" : 1644838706974,
+          "stop" : 1644838706983,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type @E^hzd%X]4e>U%6P",
+        "time" : {
+          "start" : 1644838706983,
+          "stop" : 1644838707344,
+          "duration" : 361
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "contains Login",
+        "time" : {
+          "start" : 1644838707344,
+          "stop" : 1644838707354,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1644838707354,
+          "stop" : 1644838707447,
+          "duration" : 93
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "form sub --submitting form--",
+        "time" : {
+          "start" : 1644838707446,
+          "stop" : 1644838707446,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1644838707447,
+          "stop" : 1644838707447,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://connect.uat-healthera.co.uk/auth?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl9pZCI6ImEwM2YyOWEwLThkOGEtMTFlYy1hZThjLThiZDNiNzY5Yzk2ZSIsImV4cCI6MTY0NDgzOTYwNywiaWF0IjoxNjQ0ODM4NzA3LCJ1c2VyX2lkIjoiYmM2NTkxOTAtNzRiZi0xMWVhLTk5NTktMzk1NzhlYzliZTAxIn0.tl-2Q93s9lkgLNNrQQt4UioWiHEOz4oWPy_y4wvNyN4&name=Pharmacy%20User",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncaught exception AbortError: Registration failed - push service not available",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://firebaseinstallations.googleapis.com/v1/projects/healthera-staging/installations",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://backend.getbeamer.com/initialize?product=PyoEqpLv26131&domain=connect.uat-healthera.co.uk&language=EN",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.uat-healthera.co.uk/users/bc659190-74bf-11ea-9959-39578ec9be01",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.uat-healthera.co.uk/users/bc659190-74bf-11ea-9959-39578ec9be01",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://api.uat-healthera.co.uk/users/bc659190-74bf-11ea-9959-39578ec9be01",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://backend.getbeamer.com/numberFeatures?url=connect.uat-healthera.co.uk&product=PyoEqpLv26131&v=1&language=EN",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /views/directives/back-button.html",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /views/directives/patient-avatar.html",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://connect.uat-healthera.co.uk/",
+        "time" : {
+          "start" : 1644838709736,
+          "stop" : 1644838709736,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /views/patients/patients-list.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://api.uat-healthera.co.uk/pharmacists/bc659190-74bf-11ea-9959-39578ec9be01/pharmacies",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /views/directives/select-pharmacy.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /views/directives/video-tutorial-button.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /views/directives/email-invite-button.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /views/directives/text-invite-button.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /views/directives/resend-email-invite-button.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /views/directives/search-patient.html",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://connect.uat-healthera.co.uk//auth?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl9pZCI6ImEwM2YyOWEwLThkOGEtMTFlYy1hZThjLThiZDNiNzY5Yzk2ZSIsImV4cCI6MTY0NDgzOTYwNywiaWF0IjoxNjQ0ODM4NzA3LCJ1c2VyX2lkIjoiYmM2NTkxOTAtNzRiZi0xMWVhLTk5NTktMzk1NzhlYzliZTAxIn0.tl-2Q93s9lkgLNNrQQt4UioWiHEOz4oWPy_y4wvNyN4&name=Pharmacy%20User",
+        "time" : {
+          "start" : 1644838709737,
+          "stop" : 1644838709737,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 32,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then logo text should have 'Healthera Connect'",
+      "time" : {
+        "start" : 1644838709742,
+        "stop" : 1644838709769,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .logo-text",
+        "time" : {
+          "start" : 1644838709744,
+          "stop" : 1644838709767,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<span.logo-text>** to have text **Healthera Connect**",
+        "time" : {
+          "start" : 1644838709767,
+          "stop" : 1644838709767,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "Healthera Connect"
+        }, {
+          "name" : "expected",
+          "value" : "Healthera Connect"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1644838709791,
+        "stop" : 1644838709794,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 38,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login 'Connect' portal"
+  }, {
+    "name" : "feature",
+    "value" : "Login 'Connect' portal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "10869aaddc7f7de3",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 4000ms: expected '<span.logo-text>' to have text 'Healthera Connec', but the text was 'Healthera Connect'",
+      "time" : {
+        "start" : 1644768933726,
+        "stop" : 1644768942080,
+        "duration" : 8354
+      }
+    }, {
+      "uid" : "198dd5416ce76e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1644768756519,
+        "stop" : 1644768760668,
+        "duration" : 4149
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1db6fb560ff4eb34.json",
+  "parameterValues" : [ ]
+}

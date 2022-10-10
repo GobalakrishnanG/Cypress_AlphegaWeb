@@ -3,7 +3,41 @@
   "name" : "timeline",
   "children" : [ {
     "name" : "Opening a Connect Portal",
-    "uid" : "bf4a84694cb0408a",
+    "uid" : "10869aaddc7f7de3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1644768933726,
+      "stop" : 1644768942080,
+      "duration" : 8354
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Opening a Connect Portal",
+    "uid" : "1db6fb560ff4eb34",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1644838704490,
+      "stop" : 1644838709770,
+      "duration" : 5280
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Opening a Connect Portal",
+    "uid" : "198dd5416ce76e78",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
@@ -17,23 +51,6 @@
     "newBroken" : false,
     "retriesCount" : 0,
     "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "Opening a Connect Portal",
-    "uid" : "22b09cd3adcf17d0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "failed",
-    "time" : {
-      "start" : 1644768933726,
-      "stop" : 1644768942080,
-      "duration" : 8354
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 1,
-    "retriesStatusChange" : true,
     "parameters" : [ ]
   } ]
 }

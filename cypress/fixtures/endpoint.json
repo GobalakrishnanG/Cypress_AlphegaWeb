@@ -1,7 +1,7 @@
 {    
-    "userDetails": {
-        "username": "gobi.govindan+301@healthera.co.uk",
-        "user_password": "Gobitest@78"
+    "userDetailsDev": {
+        "username": "gobi.govindan+1002@healthera.co.uk",
+        "user_password": "Healthera@01"
         },
 
     "headers": {
@@ -23,7 +23,13 @@
 
     "post_Order_Endpoint": "https://uat-api.healthera.co.uk/orders",
 
-    "getTokens": "https://uat-api.healthera.co.uk/tokens",
+    "postTokensDev": "https://api.dev-healthera.co.uk/tokens",
+
+    "getTokens": "https://api.dev-healthera.co.uk/tokens",
+
+    "getUserRemedies": "https://api.dev-healthera.co.uk/patients/{{userId}}/remedies?includeDependents=true",
+
+    "deleteMedicine": "https://api.dev-healthera.co.uk/patients/{{userId}}/remedies/{{remedyId}}?keep_adherences=false",
 
     "post_RX_Order": 
             {

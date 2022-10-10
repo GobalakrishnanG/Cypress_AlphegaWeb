@@ -1,21 +1,20 @@
 {
   "a966bf2709421c151bd973861302c5c7" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22b09cd3adcf17d0",
-      "status" : "failed",
-      "statusDetails" : "Timed out retrying after 4000ms: expected '<span.logo-text>' to have text 'Healthera Connec', but the text was 'Healthera Connect'",
+      "uid" : "1db6fb560ff4eb34",
+      "status" : "passed",
       "time" : {
-        "start" : 1644768933726,
-        "stop" : 1644768942080,
-        "duration" : 8354
+        "start" : 1644838704490,
+        "stop" : 1644838709770,
+        "duration" : 5280
       }
     } ]
   }

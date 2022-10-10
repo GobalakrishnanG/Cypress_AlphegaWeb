@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-Cypress.Commands.add('launch_connect_portal', () => {
+Cypress.Commands.add('launch_web', () => {
     cy.visit('/')
 })
 

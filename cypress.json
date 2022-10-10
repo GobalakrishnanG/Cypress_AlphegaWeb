@@ -1,11 +1,8 @@
 {
-  "baseUrl": "https://connect.dev-healthera.co.uk/",
+  "baseUrl": "http://localhost:3025",
   "testFiles": "**/*.{feature,features}",
   "defaultCommandTimeout": 30000,
-  "pageLoadTimeout": 150000,
-  "requestTimeout": 60000,
   "chromeWebSecurity": false,
   "viewportHeight": 1080,
-  "viewportWidth": 1920,
-  "projectId": "hp7g8y"
+  "viewportWidth": 1920
 }

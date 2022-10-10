@@ -1,5 +1,5 @@
 {
-  "uid" : "22b09cd3adcf17d0",
+  "uid" : "10869aaddc7f7de3",
   "name" : "Opening a Connect Portal",
   "fullName" : "Opening a Connect Portal",
   "historyId" : "a966bf2709421c151bd973861302c5c7",
@@ -15,8 +15,8 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
-  "retriesStatusChange" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
     "status" : "failed",
@@ -714,15 +714,15 @@
       "hasContent" : false
     } ],
     "attachments" : [ {
-      "uid" : "aa936e90289a97a1",
+      "uid" : "f3fa3451ca14ea31",
       "name" : "login.feature:2022-02-13T16:15:41.886Z",
-      "source" : "aa936e90289a97a1.png",
+      "source" : "f3fa3451ca14ea31.png",
       "type" : "image/png",
       "size" : 206951
     }, {
-      "uid" : "9bbf167ce3abab84",
+      "uid" : "b6c8e7ca35a034a2",
       "name" : "video recording",
-      "source" : "9bbf167ce3abab84.mp4",
+      "source" : "b6c8e7ca35a034a2.mp4",
       "type" : "video/mp4",
       "size" : 1545715
     } ],
@@ -745,26 +745,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "bf4a84694cb0408a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1644768756519,
-        "stop" : 1644768760668,
-        "duration" : 4149
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "22b09cd3adcf17d0.json",
+  "source" : "10869aaddc7f7de3.json",
   "parameterValues" : [ ]
 }

@@ -1,9 +1,6 @@
-Feature: Booking appointments through connect portal
+Feature: API calls testing
 
-    I want to test cypress commands
+    I want to test api endipoints
 
-    Scenario: Testing cypress features
-        Given Login connect with valid credentials
-        When Close the overdue pop up button
-        # And I want to collect the side nav element
-        And want to select the first order in the new tab list
+    Scenario: Testing api calls
+        Given Testing api calls
