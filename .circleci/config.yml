@@ -19,7 +19,7 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-          spec: cypress/integration/testing.feature
+          spec: cypress/integration/launch.feature
           filters:
             branches:
               only:
