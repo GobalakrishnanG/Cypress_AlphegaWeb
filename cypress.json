@@ -1,5 +1,5 @@
 {
-  "baseUrl": "http://localhost:3025",
+  "baseUrl": "https://alphega-app.dev-healthera.co.uk/",
   "testFiles": "**/*.{feature,features}",
   "defaultCommandTimeout": 30000,
   "chromeWebSecurity": false,
