@@ -10,11 +10,11 @@ workflows:
   nightly:
     triggers:
       - schedule:
-          cron: "30 17 * * *"
+          cron: 
           filters:
             branches:
               only:
-                - master
+            
     jobs:
       - cypress/run:
           executor: with-chrome
